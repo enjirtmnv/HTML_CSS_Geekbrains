@@ -1,0 +1,318 @@
+body {
+    background: #f7f7f7
+}
+
+.container {
+    max-width: 1700px;
+    margin: 0 auto;
+}
+
+h3 {
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+    background: #eaeaea;
+    font-family: Courier New, Courier, monospace;
+}
+
+.header {
+    height: 153px;
+}
+
+#logo {
+    font-size: 110px;
+    font-family: Courier New, Courier, monospace;
+    color: black;
+    background-color: white;
+    border: 15px solid white;
+    border-radius: 110px;
+}
+
+.menu a {
+    list-style-type: none;
+    font-size: 25px;
+    font-family: Courier New, Courier, monospace;
+    margin-left: 40px;
+    border: 20px solid white;
+    border-radius: 100px;
+    background-color: white;
+    text-decoration: none;
+   
+}
+
+.block_logo {
+    list-style-type: none;
+    margin-left: 200px;
+    float: left;
+}
+
+.block_menu_in {
+    display: inline-block;
+    
+}
+
+.block_menu_out {
+    list-style-type: none;
+    margin: 45px 0 45px 0px;
+    float: left;
+}
+.horizontal_rule{
+    clear: both;
+}
+#menu_name,
+#menu_description,
+h1,
+.toping {
+    font-family: Courier New, Courier, monospace;
+    text-align: center
+}
+
+#menu_name {
+    font-size: 65px;
+    background: white;
+}
+
+#menu_description {
+    font-size: 26px;
+}
+.menu a:visited {
+    color: rgb(255, 83, 0);
+}
+
+.menu a:hover {
+    background-color: rgb(180, 230, 250);
+    color: #fc4e00;
+    font-weight: bold;
+}
+
+.menu a:active {
+    font-weight: bold;
+    color: orangered;
+}
+
+.menu a:link {
+    color: black;
+}
+
+.main_content {
+    background-image: url(img/background_burger.jpg);
+    height: 300px;
+    padding-top: 90px;
+    padding-bottom: 350px;
+}
+
+.catalog {
+    text-align: center;
+}
+
+.container_catalog {
+    margin-bottom: 150px;
+}
+
+.catalog_block {
+    display: inline-block;
+    list-style-type: none;
+    list-style-position: inside;
+    font-family: Courier New, Courier, monospace;
+    font-weight: bold;
+    text-align: center;
+    margin: 50px 40px;
+    font-size: 22px;
+    text-decoration: none;
+    text-transform: lowercase;
+}
+
+.catalog p {
+    margin-top: 35px;
+    color: black;
+    background: #ffbc42;
+}
+
+img[alt="burger_catalog"] {
+    outline: 25px solid #d6d5d5;
+}
+
+img[alt="burger_catalog"]:hover {
+    outline: 0px solid #d6d5d5;
+}
+
+.container_description {
+    text-align: center;
+}
+
+.description_block_1,
+.description_block_2 {
+    display: inline-block;
+}
+
+.description_block_1 {
+    vertical-align: top;
+    margin-top: 35px;
+}
+
+.description_block_2 {
+    margin-left: 50px;
+    width: 600px
+}
+
+.short_description {
+    color: #707070;
+    text-indent: 2em;
+    font-size: 16px;
+    font-family: Courier New, Courier, monospace;
+    line-height: 16px;
+}
+
+.ingredients {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-indent: 2em;
+    font-family: Courier New, Courier, monospace;
+}
+
+.list {
+    list-style-image: url(img/burger_marker_2.png);
+    list-style-position: inside;
+    font-style: italic;
+    font-size: 15px;
+    text-transform: lowercase;
+    text-align: left;
+    margin-left: 180px;
+}
+
+.price {
+    font-family: Courier New, Courier, monospace;
+    font-size: 19px;
+}
+
+.sale {
+    color: red;
+    font-size: 24px;
+}
+
+.enter {
+    height: 25px;
+}
+
+.feedback {
+    color: black;
+    background: white;
+    border: 2px solid white;
+    font-family: Courier New, Courier, monospace;
+    color: #202020;
+    font-size: 14px;
+    text-align: center
+}
+
+.contacts {
+    text-align: center;
+}
+
+.border_for_pic {
+    outline: 20px solid #dcdcdc;
+}
+
+.border_for_pic:hover {
+    outline: 0px solid #dcdcdc;
+}
+
+.contacts_content {
+    background-image: url(img/background_burger.jpg);
+    background-size: cover;
+    text-align: center;
+    padding-bottom: 100px;
+    padding-top: 80px;
+}
+
+.feedback_caption {
+    background: #eaeaea;
+    margin-bottom: 20px;
+}
+
+input[type="email"]:focus {
+    font-size: 13px;
+    text-align: center;
+    color: black;
+    background-color: #f4e8d3
+}
+
+input[type="text"],
+textarea,
+input[type="email"] {
+    font-size: 13px;
+    text-align: center;
+    color: #953e10;
+    text-transform: capitalize;
+}
+
+table {
+    text-align: center;
+    border: 1px solid black;
+    width: 362px;
+    height: 100px;
+    border-collapse: collapse;
+    margin-top: 40px;
+    font-family: Courier New, Courier, monospace;
+}
+
+td {
+    border: 1px solid black;
+}
+
+
+}
+.short_description::first-letter,
+.ingredients::first-letter {
+    font-size: 25px;
+    color: #4b4a4a;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+}
+.price_block_1,
+.price_block_2 {
+    display: inline-block;
+}
+.price_block_2 {
+    vertical-align: top;
+    margin-left: 60px;
+    margin-top: 45px;
+}
+.buy {
+    font-size: 22px;
+    font-family: Courier New, Courier, monospace;
+    text-decoration: none;
+    border: 20px solid white;
+    border-radius: 100px;
+    background-color: white;
+}
+.buy:visited {
+    color: red;
+}
+.buy:hover {
+    background-color: rgb(180, 230, 250);
+    font-weight: bold;
+}
+.buy:link {
+    color: red;
+}
+footer {
+    height: 100px;
+    background-color: #d6d5d5;
+}
+.copy {
+    text-align: right;
+    margin-top: 36px;
+    margin-right: 70px;
+    font-family: Courier New, Courier, monospace;
+    color: black;
+}
+@media screen and (max-width: 634px){
+    .block_menu_in{
+        margin: 30px 100px 30px 100px;
+    }
+    .block_menu_out{
+        margin: 0px 0px;
+    }
+}
