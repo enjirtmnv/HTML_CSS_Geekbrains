@@ -1,0 +1,283 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: url(../img/first-bg.jpg) no-repeat center top / cover;
+    padding-bottom: 160px;
+   
+}
+
+div {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 930px;
+    margin: 0 auto;
+}
+
+.logo {
+    margin-top: 41px;
+    float: left;
+}
+
+nav {
+    float: right;
+    margin-top: 50px;
+}
+
+.menu {
+    margin: 0px;
+    padding: 0px;
+    display: block;
+}
+
+.menu li {
+    float: left;
+    list-style-type: none;
+    margin-left: 41px;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.menu a:hover {
+    color: #fed136;
+}
+
+.menu a:active {
+    color: #db8f00;
+}
+
+.title_1 {
+    font-size: 40px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h1 {
+    font-size: 75px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 45px;
+}
+
+.header_title {
+    padding-top: 273px;
+}
+
+.buttom {
+    background-color: #fed136;
+    color: #484543;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 4px;
+    display: block;
+    width: 240px;
+    padding: 25px 0;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.buttom:hover {
+    color: #c48c24;
+}
+
+.buttom:active {
+    color: saddlebrown;
+}
+
+.caption {
+    padding-top: 125px;
+    margin-bottom: 75px;
+    
+}
+
+.caption h2 {
+    font-size: 40px;
+    font-weight: bold;
+   
+    text-transform: uppercase;
+    margin: 0 auto;
+    background: linear-gradient(45deg, black, grey);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    width: 330px;
+    text-align: center;
+}
+
+.caption p {
+    color: #777;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.services {
+    margin-bottom: 310px
+}
+
+.services_item {
+    width: 270px;
+    float: left;
+    text-align: center;
+}
+
+.services_item h3 {
+    font-size: 18px;
+}
+
+.services_item p {
+    color: #777;
+    font-size: 14px;
+}
+
+.services_item:last-child {
+    float: right;
+}
+
+.services_item:nth-child(2) {
+    margin-left: 60px;
+}
+
+#services {
+    padding-bottom: 50px;
+}
+
+.services_item img:hover,
+.img_about img:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+}
+
+.portfolio_works img:hover, .contact input[type="submit"] {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#portfolio {
+    background: #f7f7f7;
+    height: 696px;
+}
+
+
+.portfolio_works a {
+    float: left;
+}
+
+.portfolio_works a:nth-child(2) {
+    margin-left: 29px;
+}
+
+.portfolio_works a:last-child {
+    float: right;
+}
+
+.text_about {
+    display: inline-block;
+    width: 283px;
+    vertical-align: top;
+    text-align: right;
+    margin-left: 42px;
+}
+
+.text_about h3 {
+    font-family: Arial;
+    color: #272727;
+    font-size: 18px;
+    width: 193px;
+    margin-left: 90px;
+}
+
+.text_about p {
+    font-family: Arial, sans-serif;
+    color: #767676;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.text_about2 h3 {
+    font-family: Arial;
+    color: #272727;
+    font-size: 18px;
+    font-weight: 700;
+    width: 193px;
+}
+
+.text_about2 p {
+    font-family: Arial, sans-serif;
+    color: #767676;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.description {
+    position: relative;
+}
+
+.img_about {
+    position: absolute;
+    display: inline-block;
+    left: 50%;
+    margin-left: -91.5px;
+}
+
+.about_us {
+    margin-bottom: 93px;
+}
+
+.text_about2 {
+    display: inline-block;
+    width: 283px;
+    vertical-align: top;
+    text-align: left;
+    margin-left: 608px;
+}
+
+
+
+.copy {
+    text-align: center;
+    font-family: Arial;
+    color: #565656;
+    font-size: 14px;
+    font-weight: 400;
+}
+.video{
+    background-color: #f7f7f7;
+
+}
+.video_block {
+ 
+    text-align: center;
+}
+.contact input{
+    font-size: 15px;
+    line-height: 30px;
+    margin-left: 20px;
+    text-align: center;
+}
+.contact input[type="submit"]{
+     border-radius: 5px;
+    background-color: #f7f7f7;
+    
+    text-transform: uppercase;
+}
+.contact label::before{
+    content: "*";
+    color: red;
+}
+.contact form{
+    padding: 15px 0 10px 0;
+}
